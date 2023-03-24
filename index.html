@@ -4,20 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="./CSS/styles.css">
     <title>My resume</title>
   </head>
   <body>
+
+
     <!-- Wrapper -->
-    <div>
+    <div  class="wrapper">
       <!-- Main content -->
-    </div>
-    <div>
+    
+    <div class="main-content">
       <div>
         <!-- About me -->
-        <div>
-          <h2>Front-End Developer</h2>
+        <div class =about-me>
+          <h2 class="my-profession">Front-End Developer</h2>
           <h1>Taras Goitinskiy</h1>
-          <p>
+          <p class="Lorem">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
             ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
@@ -28,19 +37,19 @@
         <div>
           <h3>Projects</h3>
           <ol>
-            <li>
+            <li class="project-item">
               <a href="https://hellen.p.goit.global/"
                 >https://hellen.p.goit.global/</a
               >
               ........[ HTML5, CSS3 ]
             </li>
-            <li>
+            <li class="project-item">
               <a href="https://cryptohub.p.goit.global/"
                 >https://cryptohub.p.goit.global/</a
               >
               ........[ JavaScript ]
             </li>
-            <li>
+            <li class="project-item">
               <a href="https://kidslike.p.goit.global/"
                 >https://kidslike.p.goit.global/</a
               >
@@ -49,20 +58,20 @@
           </ol>
         </div>
         <!-- Work experience -->
-        <div>
+        <div class="work-exp">
           <h3>Work Experience</h3>
           <!-- Company 1 -->
           <div>
             <h4>Front-End Developer Freelance</h4>
             <p>September 2019 - up to now | Country</p>
             <ul>
-              <li>
+              <li class="project-item">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Risus commodo viverra maecenas.</li>
-              <li>
+              <li class="project-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li class="project-item">Risus commodo viverra maecenas.</li>
+              <li class="project-item">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod.
               </li>
@@ -74,12 +83,12 @@
             <p>March 2015 - October 2018 | Country</p>
 
             <ul>
-              <li>
+              <li class="project-item">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod labore et dolore magna aliqua.
               </li>
-              <li>Quis ipsum suspendisse ultrices gravida.</li>
-              <li>Risus commodo viverra maecenas.</li>
+              <li class="project-item">Quis ipsum suspendisse ultrices gravida.</li>
+              <li class="project-item">Risus commodo viverra maecenas.</li>
             </ul>
           </div>
           <!-- Company 3 -->
@@ -91,6 +100,8 @@
               <li>Quis ipsum suspendisse ultrices gravida.</li>
               <li>Risus commodo viverra maecenas.</li>
             </ul>
+          </div>
+        </div>
             <!-- Education -->
             <div>
               <h3>Education</h3>
@@ -100,9 +111,8 @@
             </div>
           </div>
         </div>
-      </div>
       <!-- Sidebar -->
-      <aside>
+      <aside class="aside">
         <img src="./img/Frame.png" alt="My photo" width="300px" />
         <!-- Contacts -->
         <div>
