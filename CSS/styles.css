@@ -1,0 +1,56 @@
+body {
+    font-family: 'Monserrat', sans-serif;
+    background-color: #e5e5e5;
+padding: 40px;
+}
+
+.wrapper {
+display: flex;
+flex-direction: row-reverse;
+background-color: white;
+width: 1200px;
+margin: 0 auto;
+}
+.lorem {font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;}
+
+/* Main-content */
+
+.main-content {
+padding-top: 88px;
+padding-bottom: 88px;
+padding-left: 88px;
+padding-right: 88px;
+}
+
+/* About me */
+
+.about-me {margin-right: 260px;}
+
+.my-profession {font-size: 16px;
+    margin-bottom: 180px;}
+
+    h2 {font-size: 35px;}
+    .project-item {background-color:white;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;}
+
+    /* Work exp */
+.work-exp {margin-right: 260px;}
+
+    /* Aside */
+
+    .aside {
+background-color: yellowgreen;
+width: 360px;
+height: 1320px;
+left: 40px;
+top: 40px;
+
+}
