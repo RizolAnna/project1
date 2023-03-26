@@ -10,13 +10,7 @@ body {
   background-color: white;
   width: 1200px;
   margin: 0 auto;
-}
-.lorem {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Main-content */
@@ -32,28 +26,129 @@ body {
 
 .about-me {
   margin-right: 260px;
+  margin-bottom: 64px;
 }
 
 .my-profession {
-  font-size: 16px;
-  margin-bottom: 180px;
+  font-family: "Montsersrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 18px 0;
+}
+.my-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0 0 28px 0;
 }
 
-h2 {
-  font-size: 35px;
-}
-.project-item {
-  background-color: white;
-  font-family: "Montserrat";
+.lorem {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  color: #595959;
+  width: 525px;
+}
+
+/* projects */
+
+.main-cont-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0 0 8px 0;
+}
+.project-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.proj-list {
+  padding: 0 0 0 16px;
+  margin: 0;
+}
+
+.proj-cont {
+  margin-bottom: 48px;
+}
+
+.proj-item-descr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.proj-item-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #005fff;
 }
 
 /* Work exp */
 .work-exp {
-  margin-right: 260px;
+  margin-bottom: 44px;
+}
+.work-exp-posit {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0px;
+}
+
+.work-exp-place {
+  margin-bottom: 16px;
+}
+
+.work-exp-comp {
+  color: #6d9bf5;
+}
+
+.work-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 12px 0 8px 0;
+}
+
+.work-duties {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.work-duties-list {
+  padding: 0 0 0 16px;
+  margin: 0;
+}
+
+.management {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
 }
 
 /* Aside */
